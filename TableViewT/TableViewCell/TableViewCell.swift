@@ -27,10 +27,6 @@ class TableViewCell: UITableViewCell {
         super.awakeFromNib()
         driverPhoto.layer.borderWidth = 2
         driverPhoto.layer.borderColor = UIColor.lightGray.cgColor
-        driverPhoto.layer.shadowColor = UIColor.black.cgColor
-        driverPhoto.layer.shadowOpacity = 0.2
-        driverPhoto.layer.shadowRadius = 4
-        driverPhoto.layer.shadowOffset = CGSize(width: 0, height: 1)
     }
     
     //MARK: - IBActions
